@@ -20,6 +20,7 @@ class DataType{
         double d = 5.8;
         char c = 'k';
         boolean b = true;
+        
 
     }
 }
