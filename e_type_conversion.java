@@ -1,10 +1,15 @@
 /*
  * int(256) > byte(127)
  * int a, byte b
- * b = a(x), a = b(O) implicit conversion
+ * a > b bigger range works
+ * b = a(x)
+ * a = b(O) implicit conversion 
+ * 
  * explicit conversion = casting -> (byte) a
  * out of range 257 % 256(int) range
  * type promotion: bigger than byte promote to int
+ * 
+ * boolean and char does not work
  */
 
 class TypeConversion{
